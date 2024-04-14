@@ -1,0 +1,99 @@
+/* TYPOGRAPHY  */
+.typography {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h-1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-block: 0;
+}
+
+.h-2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-block: 0;
+}
+
+.h-3 {
+    font-size: 1.5em;
+    margin-block: 0;
+    font-weight: bold;
+}
+
+.p-bold {
+    font-weight: bold;
+    margin-block: 0;
+}
+
+.p-italic {
+    font-style: italic;
+    margin-block: 0;
+}
+
+.p-underline {
+    text-decoration: underline;
+    margin-block: 0;
+}
+
+.p-normal {
+    margin-block: 0.4em;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/* LINK */
+.link {
+    text-decoration: none;
+    color: #2c31cf;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: #2d41aa;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* COLOR */
+.color-dark-blue {
+    color: #222231;
+}
+
+.color-red {
+    color: tomato;
+}
+
+.color-secondary {
+    color: #777777;
+}
+
+.color-green {
+    color: #04AA6D;
+}
+
+/* IMAGE - ICON */
+.icon-small {
+    width: 12px;
+    height: 12px;
+}
+
+.icon-medium {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-large {
+    width: 24px;
+    height: 24px;
+}
+
+.image {
+    width: 100%;
+    border: 1px solid salmon;
+    border-radius: 6px;
+    object-fit: cover;
+    aspect-ratio: 4/2;
+}

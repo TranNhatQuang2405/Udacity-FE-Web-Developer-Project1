@@ -1,0 +1,34 @@
+.blogBox-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    row-gap: 24px;
+}
+
+.blogBox {
+    box-sizing: border-box;
+    height: 500px;
+    border: 2px solid #888;
+    padding: 12px;
+    width: calc(100% / 2 - 12px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.blogBox>.blog-title {
+    margin-top: 12px;
+}
+
+.blogBox>.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blogBox>.image {
+    margin-top: 8px;
+}
+
+.blogBox>.link {
+    margin-top: auto;
+}
