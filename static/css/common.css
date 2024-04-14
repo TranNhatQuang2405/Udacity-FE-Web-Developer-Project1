@@ -97,3 +97,44 @@
     object-fit: cover;
     aspect-ratio: 4/2;
 }
+
+.image-round {
+    border-radius: 50%;
+    border: 2px solid salmon;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+/* CARD */
+.card {
+    box-sizing: border-box;
+    border: 2px solid #888;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+.button-secondary {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #5BBCFF;
+    border-color: #5BBCFF;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.button-primary {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: #5BBCFF;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-color: #5BBCFF;
+}

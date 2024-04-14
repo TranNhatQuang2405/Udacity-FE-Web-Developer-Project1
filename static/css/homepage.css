@@ -1,34 +1,56 @@
+.contentBox {
+    padding-left: 0 !important;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
 .blogBox-wrapper {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 12px;
-    row-gap: 24px;
+    gap: 24px;
 }
 
-.blogBox {
-    box-sizing: border-box;
-    height: 500px;
-    border: 2px solid #888;
-    padding: 12px;
-    width: calc(100% / 2 - 12px);
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-}
-
-.blogBox>.blog-title {
+.blogBoxCard>.blog-title {
     margin-top: 12px;
 }
 
-.blogBox>.description {
+.blogBoxCard>.description {
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.blogBox>.image {
+.blogBoxCard>.image {
     margin-top: 8px;
 }
 
-.blogBox>.link {
+.blogBoxCard>.link {
     margin-top: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .blogBoxCard {
+        width: calc(100% / 2 - 12px) !important;
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 1023.99px) {
+    .blogBoxCard {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .searchBox {
+        margin-left: 8px;
+        align-self: flex-start;
+    }
 }

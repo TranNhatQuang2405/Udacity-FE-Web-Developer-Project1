@@ -11,22 +11,31 @@
 </head>
 
 <body>
-    <section class="nav">
-        <p class="h-3 color-secondary p-underline">Subcribe</ơ>
-        <p class="h-1 color-black-blue center">Blog Home Page</p>
-        <img class="icon-large" src="./static/assets/searchIcon.png" />
+    <section class="header">
+        <p class="h-1 color-black-blue">Blog</p>
     </section>
-    <section class="container">
+    <section class="nav">
+        <a class="link nav-link" href="/index.html?type=hot">Hot</a>
+        <a class="link nav-link" href="/index.html?type=new">Newest</a>
+        <a class="link nav-link" href="/index.html?type=topic">Topic</a>
+        <div class="searchBox">
+            <img class="icon-large" src="./static/assets/searchIcon.png" />
+            <p class="color-black-blue p-bold">Search</p>
+        </div>
+        <button class="button-primary">Follow</button>
+        <button class="button-secondary">Subcribe</button>
+    </section>
+    <section class="container contentBox">
         <div class="blogBox-wrapper">
-            <div class="blogBox">
+            <div class="blogBoxCard card">
                 <p class="p-bold color-green">World</p>
                 <p class="h-2 blog-title">New World Blog Post</p>
                 <p class="p-bold color-secondary">Nov 20</p>
                 <img class="image" src="static/assets/blogImage/world.jpg">
                 <p class="p-normal description">This is blog about new event in over the World</p>
-                <a class="link" href="/blogBox">Continue reading</a>
+                <a class="link" href="/blogPost.html">Continue reading</a>
             </div>
-            <div class="blogBox">
+            <div class="blogBoxCard card">
                 <p class="p-bold color-secondary">Animal</p>
                 <p class="h-2 blog-title">Animal Blog Post</p>
                 <p class="p-bold color-secondary">Sep 01</p>
@@ -34,36 +43,37 @@
                 <div class="p-normal description">We live on a planet with millions of species of animals -and a rich,
                     diverse collection of known wildlife, and yet new species are being identified seemingly every day —
                     both living and extinct</div>
-                <a class="link" href="/blogBox">Continue reading</a>
+                <a class="link" href="/blogPost.html">Continue reading</a>
             </div>
-            <div class="blogBox">
+            <div class="blogBoxCard card">
                 <p class="p-bold color-green">Nature</p>
                 <p class="h-2 blog-title">Nature Blog Post</p>
                 <p class="p-bold color-secondary">May 24</p>
                 <img class="image" src="static/assets/blogImage/nature.jpg">
                 <p class="p-normal description">This is blog nature in over the World</p>
-                <a class="link" href="/blogBox">Continue reading</a>
+                <a class="link" href="/blogPost.html">Continue reading</a>
             </div>
-            <div class="blogBox">
+            <div class="blogBoxCard card">
                 <p class="p-bold color-green">People</p>
                 <p class="h-2 blog-title">People Blog Post</p>
                 <p class="p-bold color-secondary">Jan 01</p>
                 <img class="image" src="static/assets/blogImage/people.jpeg">
                 <p class="p-normal description">This is social event in over the World</p>
-                <a class="link" href="/blogBox">Continue reading</a>
+                <a class="link" href="/blogPost.html">Continue reading</a>
             </div>
-            <div class="blogBox">
+            <div class="blogBoxCard card">
                 <p class="p-bold color-red">Economy</p>
                 <p class="h-2 blog-title">Economy Blog Post</p>
                 <p class="p-bold color-secondary">Aug 11</p>
                 <img class="image" src="static/assets/blogImage/economy.jpg">
                 <p class="p-normal description">This is blog about economy in over the World</p>
-                <a class="link" href="/blogBox">Continue reading</a>
+                <a class="link" href="/blogPost.html">Continue reading</a>
             </div>
         </div>
     </section>
     <footer class="footer">
         <div class="p-bold center color-secondary">Blog template built by QuangTN14</div>
+        <div class="p-bold center color-secondary">Copyright 2024</div>
     </footer>
 </body>
 
