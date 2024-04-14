@@ -28,7 +28,7 @@
     text-overflow: ellipsis;
 }
 
-.blogBoxCard>.image {
+.blogBoxCard .image {
     margin-top: 8px;
 }
 
